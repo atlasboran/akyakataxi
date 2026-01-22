@@ -11,6 +11,11 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        brand: {
+          yellow: "#FDB813",
+          black: "#111111",
+          gold: "#FFD700",
+        },
       },
     },
   },
