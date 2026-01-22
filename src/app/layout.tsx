@@ -8,16 +8,59 @@ import { MessageCircle, Phone } from "lucide-react";
 export const metadata: Metadata = {
   title: "Akyaka Taksi | 7/24 Güvenli Ulaşım & Havalimanı Transfer",
   description: "Akyaka'nın en güvenilir taksi hizmeti. Dalaman Havalimanı transfer, VIP taşımacılık ve şehirlerarası transfer hizmetleri. 7/24 hızlı ve güvenilir ulaşım.",
-  keywords: "akyaka taksi, akyaka taxi, dalaman akyaka transfer, muğla taksi, akyaka vip transfer, akyaka havalimanı transfer",
+  keywords: "akyaka taksi, akyaka taxi, dalaman akyaka transfer, muğla taksi, akyaka vip transfer, akyaka havalimanı transfer, akyaka araç kiralama, akyaka ulaşım",
+  verification: {
+    google: "google008733c2ef695111",
+  },
+  alternates: {
+    canonical: "https://akyakataxi.com",
+  },
   openGraph: {
     title: "Akyaka Taksi | Güvenli ve Hızlı Ulaşım",
-    description: "Akyaka ve çevresinde 7/24 taksi ve VIP transfer hizmetleri.",
+    description: "Akyaka ve çevresinde 7/24 taksi ve VIP transfer hizmetleri. Dalaman Havalimanı Transfer.",
     url: "https://akyakataxi.com",
     siteName: "Akyaka Taxi",
+    images: [
+      {
+        url: "/icon.png",
+        width: 512,
+        height: 512,
+        alt: "Akyaka Taksi Logo",
+      },
+    ],
     locale: "tr_TR",
     type: "website",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Akyaka Taksi | 7/24 Güvenli Ulaşım",
+    description: "Akyaka ve çevresinde ulaşımın tek adresi.",
+    images: ["/icon.png"],
+  },
 };
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "TaxiService",
+  "name": "Akyaka Taksi",
+  "description": "Akyaka'nın en güvenilir ve hızlı taksi hizmeti.",
+  "url": "https://akyakataxi.com",
+  "telephone": "+905442581414",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Akyaka, Ula",
+    "addressRegion": "Muğla",
+    "addressCountry": "TR"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "37.0505",
+    "longitude": "28.3223"
+  },
+  "areaServed": ["Akyaka", "Muğla", "Dalaman", "Marmaris", "Bodrum"],
+  "openingHours": "Mo-Su 00:00-23:59"
+};
+
 
 export default function RootLayout({
   children,
@@ -26,6 +69,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="tr">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body className="antialiased">
         <Analytics />
         <Navbar />

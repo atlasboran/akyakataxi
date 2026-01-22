@@ -15,14 +15,16 @@ const BookingForm = () => {
             time: formData.get("time"),
         };
 
-        const message = `🚕 *YENİ REZERVASYON TALEBİ* 🚕%0A%0A` +
-            `👤 *Ad Soyad:* ${data.name}%0A` +
-            `📞 *Telefon:* ${data.phone}%0A` +
-            `📍 *Nereden:* ${data.from}%0A` +
-            `🏁 *Nereye:* ${data.to}%0A` +
-            `📅 *Tarih:* ${data.date}%0A` +
-            `⏰ *Saat:* ${data.time}%0A%0A` +
+        const rawMessage = `🚕 *YENİ REZERVASYON TALEBİ* 🚕\n\n` +
+            `👤 *Ad Soyad:* ${data.name}\n` +
+            `📞 *Telefon:* ${data.phone}\n` +
+            `📍 *Nereden:* ${data.from}\n` +
+            `🏁 *Nereye:* ${data.to}\n` +
+            `📅 *Tarih:* ${data.date}\n` +
+            `⏰ *Saat:* ${data.time}\n\n` +
             `✨ _Bu mesaj web sitemiz üzerindeki rezervasyon formundan gönderilmiştir._`;
+
+        const message = encodeURIComponent(rawMessage);
 
         // Send to WhatsApp (New specified number for bookings)
         const whatsappUrl = `https://wa.me/905321388062?text=${message}`;
