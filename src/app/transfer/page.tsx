@@ -32,7 +32,7 @@ export default function TransferLandingPage() {
                                 <span className="text-[10px] sm:text-xs uppercase tracking-[0.3em] opacity-40 group-hover:opacity-100 transition-opacity">Hemen Ara - 7/24 Aktif</span>
                             </a>
 
-                            <a href="https://wa.me/905442581414" className="bg-green-500 text-white px-8 py-5 sm:px-10 sm:py-6 rounded-[30px] font-black text-lg sm:text-xl md:text-2xl flex items-center justify-center gap-4 hover:bg-green-600 transition-all shadow-xl">
+                            <a href="https://wa.me/905321388062" className="bg-green-500 text-white px-8 py-5 sm:px-10 sm:py-6 rounded-[30px] font-black text-lg sm:text-xl md:text-2xl flex items-center justify-center gap-4 hover:bg-green-600 transition-all shadow-xl">
                                 <MessageCircle className="w-6 h-6 sm:w-8 sm:h-8" />
                                 WhatsApp&apos;tan Fiyat Al
                             </a>

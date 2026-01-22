@@ -20,7 +20,7 @@ export default function ReservationPage() {
 
                             <div className="bg-green-500 p-8 rounded-3xl shadow-xl text-white italic group hover:rotate-1 transition-transform">
                                 <p className="text-white/60 font-bold uppercase text-xs tracking-widest mb-1 italic">WhatsApp Hattı</p>
-                                <a href="https://wa.me/905442581414" className="text-4xl font-black flex items-center gap-4 italic">
+                                <a href="https://wa.me/905321388062" className="text-4xl font-black flex items-center gap-4 italic">
                                     <MessageCircle size={32} />
                                     Mesaj Gönder
                                 </a>

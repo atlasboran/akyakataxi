@@ -110,7 +110,7 @@ const Navbar = () => {
                             0 544 258 14 14
                         </a>
                         <a
-                            href="https://wa.me/905442581414"
+                            href="https://wa.me/905321388062"
                             className="bg-green-500 text-white w-full py-4 rounded-2xl font-black flex items-center justify-center gap-3 hover:bg-green-600 transition-colors text-lg italic shadow-lg"
                         >
                             <MessageCircle size={20} />

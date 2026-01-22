@@ -80,7 +80,7 @@ export default function Home() {
                 <Phone className="w-6 h-6 sm:w-8 sm:h-8" />
                 0544 258 14 14
               </a>
-              <a href="https://wa.me/905442581414" className="bg-green-500 text-white px-6 py-4 sm:px-10 sm:py-6 rounded-2xl font-black text-lg sm:text-xl md:text-2xl flex items-center justify-center gap-3 hover:scale-105 transition-transform shadow-xl">
+              <a href="https://wa.me/905321388062" className="bg-green-500 text-white px-6 py-4 sm:px-10 sm:py-6 rounded-2xl font-black text-lg sm:text-xl md:text-2xl flex items-center justify-center gap-3 hover:scale-105 transition-transform shadow-xl">
                 <MessageCircle className="w-6 h-6 sm:w-8 sm:h-8" />
                 WhatsApp
               </a>
