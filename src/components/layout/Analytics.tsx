@@ -5,25 +5,18 @@ import Script from "next/script";
 const Analytics = () => {
     return (
         <>
-            {/* Google Analytics Placeholder */}
+            {/* Google Tag (gtag.js) */}
             <Script
-                src={`https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX`}
+                src={`https://www.googletagmanager.com/gtag/js?id=AW-17111968454`}
                 strategy="afterInteractive"
             />
-            <Script id="google-analytics" strategy="afterInteractive">
+            <Script id="google-tags" strategy="afterInteractive">
                 {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-XXXXXXXXXX');
-        `}
-            </Script>
-
-            {/* Google Ads Tag Placeholder */}
-            <Script id="google-ads" strategy="afterInteractive">
-                {`
-          // gtag('config', 'AW-XXXXXXXXXX');
-        `}
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'AW-17111968454');
+                `}
             </Script>
         </>
     );
