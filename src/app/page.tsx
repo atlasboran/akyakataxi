@@ -19,10 +19,10 @@ export default function Home() {
       color: "bg-brand-yellow",
     },
     {
-      title: "VIP Transfer",
-      description: "Özel günleriniz için Mercedes Vito VIP araçlarımızla hizmetinizdeyiz.",
+      title: "Taksi Transfer",
+      description: "Geniş ve konforlu araçlarımızla 7/24 hizmetinizdeyiz.",
       icon: <Users size={32} />,
-      link: "/hizmetler/vip-transfer",
+      link: "/hizmetler/taksi-transfer",
       color: "bg-brand-yellow",
     },
   ];
@@ -37,7 +37,7 @@ export default function Home() {
             "@context": "https://schema.org",
             "@type": "TaxiService",
             "name": "Akyaka Taxi",
-            "description": "Akyaka'nın en güvenilir ve hızlı taksi hizmeti. 7/24 Dalaman transfer ve VIP taşımacılık.",
+            "description": "Akyaka'nın en güvenilir ve hızlı taksi hizmeti. 7/24 Dalaman transfer ve taksi transfer hizmetleri.",
             "url": "https://akyakataxi.com",
             "telephone": "+905442581414",
             "areaServed": {
@@ -71,7 +71,7 @@ export default function Home() {
               Akyaka&apos;da <span className="bg-brand-yellow px-2 font-black not-italic">Güvenli</span> Taksi Hizmeti
             </h1>
             <p className="text-xl text-gray-600 font-medium leading-relaxed">
-              Dalaman Havalimanı transferi, şehir içi ulaşım ve VIP yolculuklarınız için 7/24 hizmetinizdeyiz.
+              Dalaman Havalimanı transferi, şehir içi ulaşım ve taksi transfer yolculuklarınız için 7/24 hizmetinizdeyiz.
               <span className="block mt-2 font-bold text-brand-black italic underline decoration-brand-yellow decoration-4 underline-offset-4 uppercase tracking-tighter">Sabit Fiyat • Hızlı Varış • Güvenli Sürüş</span>
             </p>
 

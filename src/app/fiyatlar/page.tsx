@@ -49,7 +49,7 @@ export default function PricesPage() {
                         </div>
                         <div className="p-8 bg-gray-50 text-center">
                             <p className="text-gray-500 font-medium italic">
-                                * Listenin dışındaki tüm bölgeler ve VIP araç seçenekleri için bizi 7/24 arayabilirsiniz.
+                                * Listenin dışındaki tüm bölgeler ve geniş araç seçenekleri için bizi 7/24 arayabilirsiniz.
                             </p>
                         </div>
                     </div>

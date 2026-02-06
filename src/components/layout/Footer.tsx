@@ -36,7 +36,7 @@ const Footer = () => {
                             <li><Link href="/hizmetler/akyaka-taksi" className="text-gray-400 hover:text-white transition-colors">Akyaka İçi Taksi</Link></li>
                             <li><Link href="/hizmetler/dalaman-transfer" className="text-gray-400 hover:text-white transition-colors">Dalaman Havalimanı Transfer</Link></li>
                             <li><Link href="/hizmetler/sehirlerarasi" className="text-gray-400 hover:text-white transition-colors">Şehirlerarası Transfer</Link></li>
-                            <li><Link href="/hizmetler/vip-transfer" className="text-gray-400 hover:text-white transition-colors">VİP Transfer</Link></li>
+                            <li><Link href="/hizmetler/taksi-transfer" className="text-gray-400 hover:text-white transition-colors">Taksi Transfer</Link></li>
                         </ul>
                     </div>
 

@@ -24,10 +24,10 @@ const serviceData: Record<string, ServiceInfo> = {
         description: "Muğla'dan tüm şehirlere uzun yol deneyimi olan şoförlerle güvenli yolculuk.",
         content: "Bodrum, Marmaris, Fethiye veya daha uzağı; İzmir, İstanbul, Antalya. Uzun mesafeli yolculuklarınızda mola düzenlemeleri ve konforlu araçlarımızla yorulmadan varış noktanıza ulaşın.",
     },
-    "vip-transfer": {
-        title: "VIP & Lüks Taşımacılık",
-        description: "Mercedes Vito ve benzeri VIP araçlar ile grup transferleri ve özel hizmet.",
-        content: "Özel misafirleriniz, iş toplantılarınız veya geniş aileniz için tam donanımlı VIP araçlarımız hizmetinizde. TV, internet ve ikram seçeneklerimizle yolculuğu keyfe dönüştürün.",
+    "taksi-transfer": {
+        title: "Taksi Transfer & Geniş Araç",
+        description: "Geniş araç konforu ile grup transferleri ve özel taksi hizmeti.",
+        content: "Özel misafirleriniz, iş toplantılarınız veya geniş aileniz için tam donanımlı konforlu araçlarımız hizmetinizde. TV, internet ve ikram seçeneklerimizle yolculuğu keyfe dönüştürün.",
     }
 };
 
@@ -36,7 +36,7 @@ export function generateStaticParams() {
         { slug: 'akyaka-taksi' },
         { slug: 'dalaman-transfer' },
         { slug: 'sehirlerarasi' },
-        { slug: 'vip-transfer' },
+        { slug: 'taksi-transfer' },
     ];
 }
 

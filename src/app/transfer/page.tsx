@@ -43,7 +43,7 @@ export default function TransferLandingPage() {
                                 <CheckCircle2 size={24} className="text-brand-yellow" /> Sabit Fiyat
                             </div>
                             <div className="flex items-center gap-3 text-brand-black font-black uppercase text-xs tracking-widest">
-                                <CheckCircle2 size={24} className="text-brand-yellow" /> VIP Karşılama
+                                <CheckCircle2 size={24} className="text-brand-yellow" /> Karşılama Hizmeti
                             </div>
                             <div className="flex items-center gap-3 text-brand-black font-black uppercase text-xs tracking-widest">
                                 <CheckCircle2 size={24} className="text-brand-yellow" /> Kredi Kartı
@@ -91,7 +91,7 @@ export default function TransferLandingPage() {
                         <div>
                             <ShieldCheck size={48} className="text-brand-yellow mx-auto mb-4" />
                             <h3 className="text-xl font-black italic uppercase tracking-tighter mb-2">Güvenli Araçlar</h3>
-                            <p className="text-gray-500 font-bold italic text-sm">D2 belgeli ve sigortalı VIP araçlar.</p>
+                            <p className="text-gray-500 font-bold italic text-sm">D2 belgeli ve sigortalı konforlu araçlar.</p>
                         </div>
                     </div>
                 </div>
@@ -106,12 +106,12 @@ export default function TransferLandingPage() {
                             <div className="rounded-[50px] overflow-hidden shadow-2xl relative h-[300px] md:h-[400px]">
                                 <Image
                                     src="https://images.unsplash.com/photo-1549194388-f61be84a6e9e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                                    alt="Vito VIP"
+                                    alt="Geniş Taksi"
                                     fill
                                     className="object-cover group-hover:scale-110 transition-transform duration-700"
                                 />
                             </div>
-                            <h3 className="text-2xl md:text-3xl font-black italic">VIP Vito (9+1)</h3>
+                            <h3 className="text-2xl md:text-3xl font-black italic">Geniş Taksi (9+1)</h3>
                         </div>
                         <div className="group space-y-6">
                             <div className="rounded-[50px] overflow-hidden shadow-2xl relative h-[300px] md:h-[400px]">

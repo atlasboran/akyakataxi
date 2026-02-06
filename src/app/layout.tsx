@@ -7,8 +7,8 @@ import { MessageCircle, Phone } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Akyaka Taksi | 7/24 Güvenli Ulaşım & Havalimanı Transfer",
-  description: "Akyaka'nın en güvenilir taksi hizmeti. Dalaman Havalimanı transfer, VIP taşımacılık ve şehirlerarası transfer hizmetleri. 7/24 hızlı ve güvenilir ulaşım.",
-  keywords: "akyaka taksi, akyaka taxi, dalaman akyaka transfer, muğla taksi, akyaka vip transfer, akyaka havalimanı transfer, akyaka araç kiralama, akyaka ulaşım",
+  description: "Akyaka'nın en güvenilir taksi hizmeti. Dalaman Havalimanı transfer, taksi transfer ve şehirlerarası transfer hizmetleri. 7/24 hızlı ve güvenilir ulaşım.",
+  keywords: "akyaka taksi, akyaka taxi, dalaman akyaka transfer, muğla taksi, akyaka taksi transfer, akyaka havalimanı transfer, akyaka araç kiralama, akyaka ulaşım",
   verification: {
     google: "google008733c2ef695111",
   },
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Akyaka Taksi | Güvenli ve Hızlı Ulaşım",
-    description: "Akyaka ve çevresinde 7/24 taksi ve VIP transfer hizmetleri. Dalaman Havalimanı Transfer.",
+    description: "Akyaka ve çevresinde 7/24 taksi ve taksi transfer hizmetleri. Dalaman Havalimanı Transfer.",
     url: "https://akyakataxi.com",
     siteName: "Akyaka Taxi",
     images: [

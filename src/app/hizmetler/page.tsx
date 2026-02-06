@@ -11,7 +11,7 @@ export default function ServicesPage() {
         },
         {
             title: "Dalaman Havalimanı Transfer",
-            short: "DLM Havalimanı'ndan Akyaka'ya konforlu ve zamanında VIP transfer hizmeti.",
+            short: "DLM Havalimanı'ndan Akyaka'ya konforlu ve zamanında taksi transfer hizmeti.",
             icon: <Plane size={40} />,
             slug: "dalaman-transfer",
         },
@@ -22,10 +22,10 @@ export default function ServicesPage() {
             slug: "sehirlerarasi",
         },
         {
-            title: "VIP & Grup Taşımacılığı",
-            short: "Geniş aileler ve arkadaş grupları için lüks Vito araç seçeneklerimiz.",
+            title: "Taksi Transfer",
+            short: "Geniş aileler ve arkadaş grupları için konforlu araç seçeneklerimiz.",
             icon: <Users size={40} />,
-            slug: "vip-transfer",
+            slug: "taksi-transfer",
         },
     ];
 
